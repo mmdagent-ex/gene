@@ -3,6 +3,8 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![ja](https://img.shields.io/badge/lang-ja-blue.svg)](README.ja.md)
 
+![snapshot](gene.png)
+
 "Gene" is a CG avatar character model, developed under [AVATAR SYMBIOTIC SOCIETY Project](https://avatar-ss.org/en/index.html). It has been developed with [MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX).
 
 It is in MMD format, so you can open/edit/modify the model with MMD tools.
