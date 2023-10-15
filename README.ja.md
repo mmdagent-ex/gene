@@ -3,6 +3,8 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![ja](https://img.shields.io/badge/lang-ja-blue.svg)](README.ja.md)
 
+<img width="480" alt="snapshot" src="gene.png"/>
+
 「ジェネ / Gene」は[ムーンショット型研究開発「アバター共生社会」](https://avatar-ss.org/)で開発された CG キャラクターモデルです。
 [MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX) を用いた対話システムのために開発されたモデルです。
 
