@@ -52,7 +52,9 @@ MODEL_BINDFACE|モデルエイリアス名|モーフ名|値
 
 本レポジトリに含まれるファイルは全て [CC-BY 4.0 ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)で公開されています。利用の際は以下のクレジット表記を用いてください。
 
-CG-CA Gene (c) 2023 by Nagoya Institute of Technology
+```text
+CG-CA Gene (c) 2023 by Nagoya Institute of Technology, Moonshot R&D Goal 1 Avatar Symbiotic Society
+```
 
 なお、名古屋工業大学はこのモデルに関する商標権および意匠権を保持しています。以下の場合は許諾なしに利用いただいて問題ありません。
 
