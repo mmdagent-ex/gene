@@ -50,9 +50,11 @@ MODEL_BINDFACE|(model alias name)|morphname|value
 
 ## License
 
-Files in this repository are licensed by Nagoya Institute of Technology under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en):
+Files in this repository are licensed by Nagoya Institute of Technology under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).  For use, please use this credit:
 
-CG-CA Gene (c) 2023 by Nagoya Institute of Technology
+```text
+CG-CA Gene (c) 2023 by Nagoya Institute of Technology, Moonshot R&D Goal 1 Avatar Symbiotic Society
+```
 
 **Note**: the copyright holder still has trademark and design rights of this model.  You are permitted to use its trademark and design for:
 
