@@ -1,11 +1,11 @@
-# CG エージェントモデル 「ジェネ」
+# CG アバターキャラクターモデル 「ジェネ」
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![ja](https://img.shields.io/badge/lang-ja-blue.svg)](README.ja.md)
 
 <img width="480" alt="snapshot" src="gene.png"/>
 
-「ジェネ / Gene」は[ムーンショット型研究開発「アバター共生社会」](https://avatar-ss.org/)で開発された CG キャラクターモデルです。
+「ジェネ / Gene」は[ムーンショット型研究開発「アバター共生社会」](https://avatar-ss.org/)で開発された CG-CA (Cybernetic Agent) アバターのキャラクターモデルです。
 [MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX) を用いた対話システムのために開発されたモデルです。
 
 ファイルフォーマットは MikuMikuDance 形式であり、MMD のツールで利用・編集・変更が行えます。
