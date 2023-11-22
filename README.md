@@ -9,7 +9,24 @@
 
 It is in MMD format, so you can open/edit/modify the model with MMD tools.
 
-## Specifications
+## Files
+
+This repository contains MMD models, configuration files for use in MMDAgent-EX, and sample motion files for dialog system.
+
+```text
+   Gene.pmd                Model file (.pmd)
+   Gene.pmd.csv            Model extended file
+   Gene.pmd.shapemap       Lipsync definitions for MMDAgent-EX
+   Gene.pmd.loadmessage    Auto-exec messages at load time for MMDAgent-EX
+   Gene.pmd.deletemessage  Auto-exec messages at delete time for MMDAgent-EX
+   Gene.pmx                Model file (.pmx)
+   tex/                    Texture images for the model
+   Gene_light.*            Light-weight version of Gene
+   light/                  Light-weight textures
+   motion/                 Sample dialog motions
+```
+
+## Model Specifications
 
 - 28646 vertices, 47106 surfaces, 13 materials, 12 textures
 - A-pose, MMD-compliant scale

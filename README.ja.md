@@ -10,7 +10,24 @@
 
 ファイルフォーマットは MikuMikuDance 形式であり、MMD のツールで利用・編集・変更が行えます。
 
-## スペック
+## Files
+
+このレポジトリには MMD 形式のモデル、MMDAgent-EX 用の設定ファイル、およびサンプルの対話用モーションが含まれています。
+
+```text
+   Gene.pmd                モデルファイル (.pmd)
+   Gene.pmd.csv            モデル拡張定義ファイル
+   Gene.pmd.shapemap       リップシンク定義ファイル for MMDAgent-EX
+   Gene.pmd.loadmessage    ロード時自動実行メッセージ定義 for MMDAgent-EX
+   Gene.pmd.deletemessage  削除時自動実行メッセージ定義 for MMDAgent-EX
+   Gene.pmx                モデルファイル (.pmx)
+   tex/                    モデル用テクスチャファイル
+   Gene_light.*            軽量版モデル
+   light/                  軽量版テクスチャ
+   motion/                 対話リアクションサンプルモーション
+```
+
+## モデルスペック
 
 - 28646 頂点, 47106 面, 13材質, 12 テクスチャ
 - A ポーズ、MMD互換スケール
