@@ -1,4 +1,4 @@
-# CG アバターキャラクターモデル 「ジェネ」
+# CG アバター 「ジェネ」
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![ja](https://img.shields.io/badge/lang-ja-blue.svg)](README.ja.md)
