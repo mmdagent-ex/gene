@@ -1,4 +1,4 @@
-# CG Cybernetic Agent Model "Gene"
+# CG Cybernetic Avatar Model "Gene"
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![ja](https://img.shields.io/badge/lang-ja-blue.svg)](README.ja.md)
