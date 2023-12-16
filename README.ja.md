@@ -5,14 +5,27 @@
 
 <img width="480" alt="snapshot" src="gene.png"/>
 
-「ジェネ / Gene」は[ムーンショット型研究開発「アバター共生社会」](https://avatar-ss.org/)で開発された CG-CA (Cybernetic Agent) アバターのキャラクターモデルです。
-[MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX) を用いた対話システムのために開発されたモデルです。
+「ジェネ / Gene」は、対話システムやアバターコミュニケーションのために作られた CG-CA (Cybernetic Agent) キャラクターモデルです。このMMDモデルはCC-BY 4.0 ライセンスのもと、自由に利用・編集等が行えます。（利用条件については下記のライセンスの節をお読みください）
 
-ファイルフォーマットは MikuMikuDance 形式であり、MMD のツールで利用・編集・変更が行えます。
+このCGアバターは、[ムーンショット型研究開発「アバター共生社会」プロジェクト](https://avatar-ss.org/)において、[MMDAgent-EX](https://mmdagent-ex.dev/) を用いた音声対話・アバターシステムのリファレンスモデルとして設計・開発されたものです。
 
-## Files
+## 表現力
 
-このレポジトリには MMD 形式のモデル、MMDAgent-EX 用の設定ファイル、およびサンプルの対話用モーションが含まれています。
+このモデルは100以上のモーフを備えており、多様な会話上のアクションを実装可能です。以下は代表的な表情の例です。これらの表情・リアクションを行うモーションファイルが `motion` フォルダ内に収められており、利用できます。
+
+![example.png](example.png)
+
+## モデルスペック
+
+- 28646 頂点, 47106 面, 13材質, 12 テクスチャ
+- A ポーズ、MMD互換スケール
+- 224 ボーン（MMD準標準ボーン対応）
+- 184 モーフ（MMD互換+パーフェクトシンク）
+- 物理演算：87剛体, 92ジョイント
+
+## 主要なファイル
+
+このレポジトリには2つの MMD 形式のモデル（通常、および軽量版(light)）、MMDAgent-EX 用の設定ファイル、およびサンプルの対話用モーションが含まれています。
 
 ```text
    Gene.pmd                モデルファイル (.pmd)
@@ -27,14 +40,6 @@
    motion/                 対話リアクションサンプルモーション
 ```
 
-## モデルスペック
-
-- 28646 頂点, 47106 面, 13材質, 12 テクスチャ
-- A ポーズ、MMD互換スケール
-- 224 ボーン（MMD準標準ボーン対応）
-- 184 モーフ（MMD互換+パーフェクトシンク）
-- 物理演算：87剛体, 92ジョイント
-
 ## 利用方法
 
 MMDAgent-EX で `Gene.pmd` を `MODEL_ADD` 等で指定して使ってください。
@@ -42,6 +47,8 @@ MMDAgent-EX で `Gene.pmd` を `MODEL_ADD` 等で指定して使ってくださ�
 MMD のツール等でで読み込む場合は `Gene.pmx` のほうを使ってください。
 
 動作が重い場合は軽量版 `Gene_light.pmd` のほうを使ってください。テクスチャの解像度が下がるので表示は多少荒くなりますが、軽快に動作します。なお機能は同一です。
+
+MMDAgent-EX で使う際のチュートリアル等の詳しい説明は[MMDAgent-EXのサイト](https://mmdagent-ex.dev/)をご覧ください。
 
 ## 特別なモーフ
 
@@ -73,12 +80,12 @@ MODEL_BINDFACE|モデルエイリアス名|モーフ名|値
 CG-CA Gene (c) 2023 by Nagoya Institute of Technology, Moonshot R&D Goal 1 Avatar Symbiotic Society
 ```
 
-なお、名古屋工業大学はこのモデルに関する商標権および意匠権を保持しています。以下の場合は許諾なしに利用いただいて問題ありません。
+なお、**名古屋工業大学はこのモデルに関する商標権および意匠権を保持しています**。以下の場合は許諾なしに利用いただいて問題ありません。
 
 - 学術活動（論文掲載、発表等）
 - 個人の方の非営利的な利用（SNSへの投稿、イベントでの掲示等）
 
-営利活動・商用利用、その他での利用については、個別に 李 (ri@nitech.ac.jp) までお問い合わせください。
+上記以外の営利活動・商用利用、その他での利用については、個別に 李 (ri@nitech.ac.jp) までお問い合わせください。
 
 ## 利用ガイドライン
 
@@ -110,6 +117,20 @@ CG-CA Gene (c) 2023 by Nagoya Institute of Technology, Moonshot R&D Goal 1 Avata
 
 - [名工大 李 研究室](https://www.slp.nitech.ac.jp/)
 - [石黒プロジェクト ムーンショット型研究開発事業 アバター共生社会](https://avatar-ss.org/)
+
+## リンク
+
+- [オフィシャルサイト](https://mmdagent-ex.dev/)
+- Twitter/X: [@MMDAgentEX](https://twitter.com/MMDAgentEX)
+- 関連レポジトリ：
+  - [MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX)
+  - [CG-CA "Uka"](https://github.com/mmdagent-ex/uka)
+
+## 連絡先
+
+E-mail: mmdagent-ex-official@lee-lab.org
+
+開発チーム: [名古屋工業大学 李 研究室](https://www.slp.nitech.ac.jp/)
 
 ---
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/mmdagent-ex/gene">CG-CA Gene</a> by <span property="cc:attributionName">Nagoya Institute of Technology and Moonshot R&D Goal 1 Avatar Symbiotic Society</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>

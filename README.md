@@ -5,13 +5,27 @@
 
 <img width="480" alt="snapshot" src="gene.png"/>
 
-"Gene" is a CG-CA (cybernetic avatar) character model, developed under [AVATAR SYMBIOTIC SOCIETY Project](https://avatar-ss.org/en/index.html). It has been developed with [MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX).
+"Gene" is a CG-CA (cybernetic avatar) character model for spoken dialogue systems and avatar communication.  You can open/edit/modify this MMD model under CC-BY 4.0 license (see LICENSE section below).
 
-It is in MMD format, so you can open/edit/modify the model with MMD tools.
+This CG avatar has been created under [AVATAR SYMBIOTIC SOCIETY Project](https://avatar-ss.org/en/index.html) as a reference avatar model for  [MMDAgent-EX](https://mmdagent-ex.dev/) toolkit.
+
+## Expressions
+
+This model equips +100 morphs for facial expression so that it can express various conversational actions.  Here is an example of pre-defined expressions that can be played by the motion files under `motion` directory.
+
+![example.png](example.png)
+
+## Model Specifications
+
+- 28646 vertices, 47106 surfaces, 13 materials, 12 textures
+- A-pose, MMD-compliant scale
+- 224 bones (supports MMD semi-standard bones)
+- 184 morphs (basic MMD-compliant faces + perfect sync support)
+- Physics: 87 rigid bodies, 92 joints
 
 ## Files
 
-This repository contains MMD models, configuration files for use in MMDAgent-EX, and sample motion files for dialog system.
+This repository contains model files (normal and light-weight version), and sample dialogue motion files.
 
 ```text
    Gene.pmd                Model file (.pmd)
@@ -26,21 +40,15 @@ This repository contains MMD models, configuration files for use in MMDAgent-EX,
    motion/                 Sample dialog motions
 ```
 
-## Model Specifications
-
-- 28646 vertices, 47106 surfaces, 13 materials, 12 textures
-- A-pose, MMD-compliant scale
-- 224 bones (supports MMD semi-standard bones)
-- 184 morphs (basic MMD-compliant faces + perfect sync support)
-- Physics: 87 rigid bodies, 92 joints
-
 ## Usage
 
 To load model in MMDAgent-EX, just specify the model file "`Gene.pmd`" at `MODEL_ADD` message or other messages.
 
-To use this model on MMD tools, use "`Gene.pmx`".
+To use this model on MMD tools, use "`Gene.pmx`" and convert it to be used with MMDAgent-EX.
 
-If you have troubld reading the model, try light-weight version with smaller texture: `Gene_light.pmd`.  The functions are the same.
+If you have trouble reading the model, try light-weight version with smaller texture: `Gene_light.pmd`.  The functions are the same.
+
+See [Official site](https://mmdagent-ex.dev/) for more documentations.
 
 ## Special morphs
 
@@ -51,7 +59,7 @@ You can show/hide head parts by morph parameters:
 - Cheek lines
 - Cheek color
 
-Relevant morphs are:
+Corresponding morphs are:
 
 - "`頬斜線消し`": set to 1 to erase cheek lines
 - "`頬赤み消し`": set to 1 to erase cheek color
@@ -59,11 +67,13 @@ Relevant morphs are:
 - "`メッシュなし`" set to 1 to erase hear mesh highlights
 - "`髪留なし`" set to 1 to erase hear pin
 
-On MMDAgent-EX, you can set the morph value by the following message:
+For example, you can set the morph value by the following message in MMDAgent-EX:
 
 ```text
 MODEL_BINDFACE|(model alias name)|morphname|value
 ```
+
+See [Official site](https://mmdagent-ex.dev/) for more documentations.
 
 ## License
 
@@ -73,12 +83,12 @@ Files in this repository are licensed by Nagoya Institute of Technology under [C
 CG-CA Gene (c) 2023 by Nagoya Institute of Technology, Moonshot R&D Goal 1 Avatar Symbiotic Society
 ```
 
-**Note**: the copyright holder still has trademark and design rights of this model.  You are permitted to use its trademark and design for:
+**Note: the copyright holder still has trademark and design rights of this model**.  You are permitted to use its trademark and design for:
 
 - Academic purpose (publications and releases), and
 - Personal non-commercial usage (posts to SNS or at an event).
 
-For commercial use, please contact us (ri@nitech.ac.jp).
+For other commercial use, please contact us.
 
 ## Usage Guideline
 
@@ -108,8 +118,17 @@ Disclaimer: we are not responsible for any troubles between users caused by deri
 
 ## Links
 
-- [Lee-Lab, Nitech](https://www.slp.nitech.ac.jp/en/)
-- [ISHIGURO Project, Moonshot Goal 1: Avatar-Symbiotic Society](https://avatar-ss.org/en/index.html)
+- [Official Site](https://mmdagent-ex.dev/)
+- Twitter/X: [@MMDAgentEX](https://twitter.com/MMDAgentEX)
+- Repositories:
+  - [MMDAgent-EX](https://github.com/mmdagent-ex/MMDAgent-EX)
+  - [CG-CA "Uka"](https://github.com/mmdagent-ex/uka)
+
+## Contact
+
+E-mail: mmdagent-ex-official@lee-lab.org
+
+Dev Team: [Lee-Lab, Nitech](https://www.slp.nitech.ac.jp/en/)
 
 ---
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/mmdagent-ex/gene">CG-CA Gene</a> by <span property="cc:attributionName">Nagoya Institute of Technology and Moonshot R&D Goal 1 Avatar Symbiotic Society</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
