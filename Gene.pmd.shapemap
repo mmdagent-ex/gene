@@ -6,4 +6,4 @@ LIP_O お
 
 # List of morphs to be set to 0 while lip syncing is running
 # Should list all lip morphs in the model except specified above
-NOLIP え,おお~,ワ,えー,ああ,いい,叫び,あーれー,口わらい,mouth_a_geo_C,mouth_i_geo_C,mouth_u_geo_C,mouth_e_geo_C,mouth_o_geo_C,mouth_oh_geo_C,mouth_smile_geo_C,mouth_surprise_geo
+NOLIP え,おお~,ワ,∧,はんっ！,えー,にやり,にっこり,口締め,結び,む,ああ,いい,にたり,叫び,あーれー,口わらい,mouth_a_geo_C,mouth_i_geo_C,mouth_u_geo_C,mouth_e_geo_C,mouth_o_geo_C,mouth_oh_geo_C,mouth_smile_geo_C,mouth_surprise_geo
